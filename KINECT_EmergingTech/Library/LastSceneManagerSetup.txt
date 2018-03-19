@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/TomTesting/1_Headtrack, Perspective/scenes/HeadTrack1.Airship.unity
+  isLoaded: 1
+  isActive: 1
