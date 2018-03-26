@@ -1,6 +1,6 @@
 Android
 SceneListBegin?
-Assets/Scenes/_vfMidAirTrack.unity
+Assets/Scenes/_AR_Test.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -194,6 +194,8 @@ a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 8c229ece9cf1b052bab427c7bacb4424 Assembly-CSharp.dll:.Steer
 33bd8794e4d03fbbe95a9d0d9229361c Assembly-CSharp.dll:.vButtonLeft
+3d1a980b1d800873c9d2b01141a9cb6c Assembly-CSharp.dll:.CameraPlane
+93a2c9254154ebcafb8f8ac293b9e80f Assembly-CSharp.dll:.DeployStageOnce
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -214,6 +216,7 @@ bf1a29c7550112b9101e555467b46661 Assembly-CSharp.dll:.vButtonForward
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+a64d6b97b5abbcb1ef5cc3d7f68bdc9b Assembly-CSharp.dll:.AirshipOrbit
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -294,6 +297,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
-3d1a980b1d800873c9d2b01141a9cb6c Assembly-CSharp.dll:.CameraPlane
-a64d6b97b5abbcb1ef5cc3d7f68bdc9b Assembly-CSharp.dll:.AirshipOrbit
-93a2c9254154ebcafb8f8ac293b9e80f Assembly-CSharp.dll:.DeployStageOnce

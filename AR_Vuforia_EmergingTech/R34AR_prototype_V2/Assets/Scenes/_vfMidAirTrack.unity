@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 2020821747, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnchorStage: {fileID: 1557572693}
+  AnchorStage: {fileID: 1663526011}
 --- !u!114 &1245880515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: Vuforia.AnchorInputListenerBehaviour+InputReceivedEvent, Vuforia.UnityExtensions,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  mDisplayAdvanced: 0
+  mDisplayAdvanced: 1
 --- !u!4 &1245880517
 Transform:
   m_ObjectHideFlags: 0
@@ -357,27 +357,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7ca7375fd5e7194c9419c49c22a2f12, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7ca7375fd5e7194c9419c49c22a2f12, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7ca7375fd5e7194c9419c49c22a2f12, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e7ca7375fd5e7194c9419c49c22a2f12, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7ca7375fd5e7194c9419c49c22a2f12, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &1557572693 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100000, guid: e7ca7375fd5e7194c9419c49c22a2f12, type: 3}
-  m_PrefabInternal: {fileID: 1557572692}
 --- !u!4 &1557572694 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: e7ca7375fd5e7194c9419c49c22a2f12, type: 3}
@@ -405,7 +401,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1663526011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.983, y: 0, z: 0}
+  m_LocalPosition: {x: 0.983, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1557572694}
