@@ -253,8 +253,10 @@
     <Compile Include="Assets\_TOM\scripts\DeployStageOnce.cs" />
     <Compile Include="Assets\_TOM\scripts\MarkerTriggerListener.cs" />
     <Compile Include="Assets\_TOM\scripts\OceanMarkers.cs" />
+    <Compile Include="Assets\_TOM\scripts\OnContactLoadScene.cs" />
     <Compile Include="Assets\_TOM\scripts\Steer.cs" />
     <Compile Include="Assets\_TOM\scripts\textting.cs" />
+    <Compile Include="Assets\_TOM\scripts\TextToCam.cs" />
     <Compile Include="Assets\_TOM\scripts\virtualbuttons\vButton.cs" />
     <Compile Include="Assets\_TOM\scripts\virtualbuttons\vButtonForward.cs" />
     <Compile Include="Assets\_TOM\scripts\virtualbuttons\vButtonLeft.cs" />

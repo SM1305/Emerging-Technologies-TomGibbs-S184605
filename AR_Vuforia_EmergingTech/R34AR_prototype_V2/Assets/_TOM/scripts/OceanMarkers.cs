@@ -9,24 +9,30 @@ public class OceanMarkers : MonoBehaviour
     //public GUIText Title;
     //public GUIText Time;
     //public GUIText Desctiption;
+    public GameObject Empty;
     public TextMesh Title;
     public TextMesh Time;
     public TextMesh Desctiption;
 
     [Header("Marker Management")]
-    //public GameObject markers;
     public GameObject[] markersArray;
-    public int markersIndex = 0;
+    public int markersIndex = 1;
 
     private GameObject currentMarker;
     private GameObject nextMarker;
 
+    private ParticleSystem PS;
+
+
+    //public bool UKtoUS;
+
 
     void Start ()
     {
-        Title = GetComponent<TextMesh>();
-        Time = GetComponent<TextMesh>();
-        Desctiption = GetComponent<TextMesh>();
+        Title = Empty.GetComponent<TextMesh>();
+        Time = Empty.GetComponent<TextMesh>();
+        Desctiption = Empty.GetComponent<TextMesh>();
+
 
 
         currentMarker = markersArray[markersIndex];
@@ -36,6 +42,9 @@ public class OceanMarkers : MonoBehaviour
 	void Update ()
     {
         SwitchMarker();
+
+        PS = currentMarker.GetComponent<ParticleSystem>();
+        PS.Play();
 
         Debug.Log("THE MARKERS INDEX IS: " + markersIndex);
 	}
