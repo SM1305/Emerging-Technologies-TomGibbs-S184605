@@ -7,7 +7,7 @@ public class vButtonRight : MonoBehaviour, IVirtualButtonEventHandler
 {
     public GameObject vButtonRightObj;
     public GameObject ship;
-    private float rotateSpeed = 40f;
+    public float rotateSpeed = 40f;
     private bool turningR;
 
     void Start()

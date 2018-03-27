@@ -7,6 +7,7 @@ public class vButtonForward : MonoBehaviour, IVirtualButtonEventHandler
 {
     public GameObject vButtonForwardObj;
     public GameObject ship;
+    public float speed;
     private bool moving;
 
     void Start()
@@ -33,7 +34,7 @@ public class vButtonForward : MonoBehaviour, IVirtualButtonEventHandler
     {
         if (moving)
         {
-            ship.transform.Translate(-Vector3.forward * Time.deltaTime);
+            ship.transform.Translate(-Vector3.forward * speed * Time.deltaTime);
         }
     }
 }

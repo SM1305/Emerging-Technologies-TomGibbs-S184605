@@ -251,6 +251,8 @@
     <Compile Include="Assets\_TOM\scripts\AirshipOrbit.cs" />
     <Compile Include="Assets\_TOM\scripts\CameraPlane.cs" />
     <Compile Include="Assets\_TOM\scripts\DeployStageOnce.cs" />
+    <Compile Include="Assets\_TOM\scripts\MarkerTriggerListener.cs" />
+    <Compile Include="Assets\_TOM\scripts\OceanMarkers.cs" />
     <Compile Include="Assets\_TOM\scripts\Steer.cs" />
     <Compile Include="Assets\_TOM\scripts\textting.cs" />
     <Compile Include="Assets\_TOM\scripts\virtualbuttons\vButton.cs" />
