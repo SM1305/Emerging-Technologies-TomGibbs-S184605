@@ -8245,7 +8245,7 @@ GameObject:
   - component: {fileID: 359093493}
   - component: {fileID: 359093496}
   m_Layer: 0
-  m_Name: Description
+  m_Name: Header
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8317,7 +8317,7 @@ Transform:
   m_LocalScale: {x: 3.3333333, y: 3.3333333, z: 3.3333333}
   m_Children: []
   m_Father: {fileID: 963350045}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &359093496
 MonoBehaviour:
@@ -38829,7 +38829,7 @@ GameObject:
   - component: {fileID: 1203803982}
   - component: {fileID: 1203803985}
   m_Layer: 0
-  m_Name: Header
+  m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38901,7 +38901,7 @@ Transform:
   m_LocalScale: {x: 3.3333333, y: 3.3333333, z: 3.3333333}
   m_Children: []
   m_Father: {fileID: 963350045}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1203803985
 MonoBehaviour:
@@ -64493,8 +64493,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038e128b9aac28d42a58be9e5e23aec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Header: {fileID: 1203803982}
-  Description: {fileID: 359093493}
+  Header: {fileID: 359093493}
+  Description: {fileID: 1203803982}
   markersArray:
   - {fileID: 936483869}
   - {fileID: 75542816}
