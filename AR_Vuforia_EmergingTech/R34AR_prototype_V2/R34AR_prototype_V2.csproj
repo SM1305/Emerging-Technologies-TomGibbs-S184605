@@ -226,6 +226,9 @@
     <Reference Include="LeapCSharp.NET3.5">
       <HintPath>Assets/LeapMotion/Core/Plugins/LeapCSharp.NET3.5.dll</HintPath>
     </Reference>
+    <Reference Include="InteractionEngineUtility">
+      <HintPath>Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -238,9 +241,6 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="InteractionEngineUtility">
-      <HintPath>Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="R34AR_prototype_V2.Plugins.csproj">
@@ -250,15 +250,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_TOM\scripts\AirshipOrbit.cs" />
+    <Compile Include="Assets\_TOM\scripts\ARwalk_Door.cs" />
+    <Compile Include="Assets\_TOM\scripts\ARwalk_doorL.cs" />
     <Compile Include="Assets\_TOM\scripts\CameraPlane.cs" />
     <Compile Include="Assets\_TOM\scripts\DeployStageOnce.cs" />
     <Compile Include="Assets\_TOM\scripts\MarkerTriggerListener.cs" />
     <Compile Include="Assets\_TOM\scripts\OceanMarkers.cs" />
     <Compile Include="Assets\_TOM\scripts\OnContactLoadScene.cs" />
+    <Compile Include="Assets\_TOM\scripts\PropellerRotate.cs" />
+    <Compile Include="Assets\_TOM\scripts\RaySelector.cs" />
     <Compile Include="Assets\_TOM\scripts\Steer.cs" />
-    <Compile Include="Assets\_TOM\scripts\tESTpLAYps.cs" />
     <Compile Include="Assets\_TOM\scripts\textting.cs" />
     <Compile Include="Assets\_TOM\scripts\TextToCam.cs" />
+    <Compile Include="Assets\_TOM\scripts\vButtonSelect.cs" />
     <Compile Include="Assets\_TOM\scripts\virtualbuttons\vButton.cs" />
     <Compile Include="Assets\_TOM\scripts\virtualbuttons\vButtonForward.cs" />
     <Compile Include="Assets\_TOM\scripts\virtualbuttons\vButtonLeft.cs" />
@@ -571,12 +575,14 @@
     <None Include="Assets\StreamingAssets\Vuforia\R34.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\R34_BIKE.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\R34_BLUEPRINT.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\R34_ControlWand.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\R34_MILITARY_POSTER.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\R34_Tank.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\Wandv2.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
