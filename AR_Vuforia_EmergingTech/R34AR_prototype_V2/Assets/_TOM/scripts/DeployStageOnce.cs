@@ -53,8 +53,6 @@ public class DeployStageOnce : MonoBehaviour
             AnchorStage.SetActive(true);
         }
 
-        Debug.Log("single object instantiation using virtual button is working as planned. Mwuhaha.");
-
         if (_previousAnchor != null)
         {
             Destroy(_previousAnchor);
