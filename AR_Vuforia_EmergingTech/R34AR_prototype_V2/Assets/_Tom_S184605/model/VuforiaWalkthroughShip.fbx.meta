@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 40a1bd440b8bf614e8a6e8dfc58be244
+timeCreated: 1522592874
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cockpit.Front
+    100002: Door.left
+    100004: Door.right
+    100006: EngineRoom.Left
+    100008: EngineRoom.Rear
+    100010: EngineRoom.Right
+    100012: prop.front
+    100014: prop.left
+    100016: prop.rear
+    100018: prop.right
+    100020: R34
+    100022: //RootNode
+    400000: Cockpit.Front
+    400002: Door.left
+    400004: Door.right
+    400006: EngineRoom.Left
+    400008: EngineRoom.Rear
+    400010: EngineRoom.Right
+    400012: prop.front
+    400014: prop.left
+    400016: prop.rear
+    400018: prop.right
+    400020: R34
+    400022: //RootNode
+    2100000: Material__26.005
+    2100002: 02___Standard.015
+    2100004: 02___Standard.014
+    2100006: 02___Standard.013
+    2100008: Material__59
+    2100010: No Name
+    2100012: Material__26
+    2100014: 02___Standard
+    2100016: Material__26.009
+    2100018: Material__59.004
+    2100020: Material__26.006
+    2100022: 02___Standard.018
+    2100024: 02___Standard.017
+    2100026: 02___Standard.016
+    2100028: Material__59.005
+    2100030: Material__59.006
+    2100032: Material__26.001
+    2100034: 02___Standard.001
+    2100036: Material__26.007
+    2300000: Cockpit.Front
+    2300002: Door.left
+    2300004: Door.right
+    2300006: EngineRoom.Left
+    2300008: EngineRoom.Rear
+    2300010: EngineRoom.Right
+    2300012: prop.front
+    2300014: prop.left
+    2300016: prop.rear
+    2300018: prop.right
+    2300020: R34
+    3300000: Cockpit.Front
+    3300002: Door.left
+    3300004: Door.right
+    3300006: EngineRoom.Left
+    3300008: EngineRoom.Rear
+    3300010: EngineRoom.Right
+    3300012: prop.front
+    3300014: prop.left
+    3300016: prop.rear
+    3300018: prop.right
+    3300020: R34
+    4300000: EngineRoom.Right
+    4300002: prop.rear
+    4300004: Door.left
+    4300006: R34
+    4300008: Cockpit.Front
+    4300010: Door.right
+    4300012: prop.right
+    4300014: EngineRoom.Left
+    4300016: prop.left
+    4300018: prop.front
+    4300020: EngineRoom.Rear
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LeapMotion/Core/Examples/Leap Hands Demo (Desktop).unity
+- path: Assets/_Tom_S184605/Scenes/_leap_test.unity
   isLoaded: 1
   isActive: 1

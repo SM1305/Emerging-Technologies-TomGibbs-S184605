@@ -226,6 +226,9 @@
     <Reference Include="LeapCSharp.NET3.5">
       <HintPath>Assets/LeapMotion/Core/Plugins/LeapCSharp.NET3.5.dll</HintPath>
     </Reference>
+    <Reference Include="InteractionEngineUtility">
+      <HintPath>Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -237,9 +240,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="InteractionEngineUtility">
-      <HintPath>Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -289,24 +289,27 @@
     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicUnlitTransparent.shader" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
-    <None Include="Assets\StreamingAssets\Vuforia\R34.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\R34_BIKE.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\R34_BLUEPRINT.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\R34_MILITARY_POSTER.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\R34_Tank.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
-    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
-    <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-    <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
-    <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-    <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
-    <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
-    <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
-    <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-    <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-    <None Include="Assets\_TOM\materials\NewSurfaceShader.shader" />
+    <None Include="Assets\_Tom_S184605\materials\shadowShader\NewSurfaceShader.shader" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\PaperWandV3.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\R34.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\R34_BIKE.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\R34_BLUEPRINT.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\R34_ControlWand.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\R34_MILITARY_POSTER.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\R34_Tank.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+    <None Include="Assets\vuforia_\StreamingAssets\Vuforia\Wandv2.xml" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\BrightTexture.shader" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\CameraDiffuse.shader" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\DepthContour.shader" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\DepthMask.shader" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\OutlineOpaque.shader" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\Text3D.shader" />
+    <None Include="Assets\vuforia_\Vuforia\Shaders\VertexLitWithZ.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
