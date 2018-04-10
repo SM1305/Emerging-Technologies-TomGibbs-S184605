@@ -8,8 +8,7 @@ public class shadertest : MonoBehaviour
     Shader shader2;
     public Renderer rend;
 
-
-	void Start ()
+    	void Start ()
     {
         rend = GetComponent<Renderer>();
         shader1 = Shader.Find("Standard");
