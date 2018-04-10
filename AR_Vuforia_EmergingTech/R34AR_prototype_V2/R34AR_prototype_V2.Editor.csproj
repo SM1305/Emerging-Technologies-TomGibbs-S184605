@@ -400,6 +400,7 @@
     <None Include="Assets\_Tom_S184605\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
     <None Include="Assets\_Tom_S184605\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\_Tom_S184605\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\_Tom_S184605\materials\borderShader\$self_illuminated_outlined_diffuse_113.shader" />
     <None Include="Assets\_Tom_S184605\materials\borderShader\Outline.shader" />
     <None Include="Assets\_Tom_S184605\materials\borderShader\Silhouetted Bumped Diffuse Cutout DoubleV3.shader" />
     <None Include="Assets\_Tom_S184605\materials\shadowShader\NewSurfaceShader.shader" />
