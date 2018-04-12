@@ -91,35 +91,43 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
     {
         rayLine.SetPosition(0, transform.position);
 
-        Debug.DrawRay(transform.position, transform.forward * 100, Color.green);
+        Debug.DrawRay(transform.position, transform.forward * 1000, Color.green);
 
-        rayLine.SetPosition(1, transform.forward * 100);
+        rayLine.SetPosition(1, transform.forward * 1000);
     }
 
     void SearchObjects()
     {
+        AimLine();
+
         if (hitInfo.transform.name == "R34")
         {
+            Debug.Log("R34");
             objects = SelectableObjects.R34;
         }
         if (hitInfo.transform.name == "Engines")
         {
+            Debug.Log("Engines");
             objects = SelectableObjects.Engines;
         }
         if (hitInfo.transform.name == "ControlEngineCar")
         {
+            Debug.Log("ControlEngineCar");
             objects = SelectableObjects.ControlEngineCar;
         }
         if (hitInfo.transform.name == "WingEngineCar")
         {
+            Debug.Log("WingEngineCar");
             objects = SelectableObjects.WingEngineCar;
         }
         if (hitInfo.transform.name == "RearEngineCar")
         {
+            Debug.Log("RearEngineCar");
             objects = SelectableObjects.RearEngineCar;
         }
         if (hitInfo.transform.name == "Wheel")
         {
+            Debug.Log("Wheel");
             objects = SelectableObjects.Wheel;
         }
     }
@@ -163,6 +171,9 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
                 body.text = "WheelWheelWheelWheelWheelWheelWheelWheelWheelWheel";
                 Debug.Log("Wheel");
                 SearchObjects();
+                break;
+            default:
+                Debug.Log("default innit");
                 break;
         }
     }

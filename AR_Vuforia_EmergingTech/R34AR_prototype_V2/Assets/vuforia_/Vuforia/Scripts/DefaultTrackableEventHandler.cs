@@ -7,7 +7,6 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
-using UnityEngine.UI;
 using Vuforia;
 
 /// <summary>
@@ -16,8 +15,6 @@ using Vuforia;
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
     #region PRIVATE_MEMBER_VARIABLES
-
-    public Transform Text;
 
     protected TrackableBehaviour mTrackableBehaviour;
 
@@ -107,8 +104,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
-
-        Text.gameObject.SetActive(false);
     }
 
     #endregion // PRIVATE_METHODS

@@ -1,6 +1,4 @@
 Android
-PlayerPath?
-C:/Users/tomgi/Desktop/hellloo.apk
 SceneListBegin?
 Assets/_Tom_S184605/Scenes/AtlanticCrossing.unity
 SceneListEnd?
@@ -118,6 +116,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 2cd695f4d8589cb264e56cf4f0246e3b Assembly-CSharp.dll:.ExampleArrayController
 1c9dbf6588c2a86d918d6a6e3eb4ef45 Assembly-CSharp.dll:Leap.Unity.Examples.TransformHandle
 7f7dcefdc775e741479cedcc5fbfe592 Assembly-CSharp.dll:Leap.Unity.PalmDirectionDetector
+6ae68685ebb0e33e57af147341b029fb Assembly-CSharp.dll:.materialtest
 c4daf66b05f8d037f54b8882678c7854 Assembly-CSharp.dll:Leap.Unity.Examples.WorkstationBehaviourExample
 f5f82f4aae98a56d66a8448f308fd23f Assembly-CSharp.dll:Leap.Unity.Examples.SimpleMatchAnchorScaleAndState
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -145,6 +144,7 @@ fe1f246c3125df0499e5f9a33261d3c6 Assembly-CSharp.dll:Leap.Unity.LeapVRTemporalWa
 2c87ff99968a2c972873cc8c73fdad61 Assembly-CSharp.dll:Leap.Unity.Interaction.InteractionControllerSwitcher
 91944deb0dc9ea1ad97eb65bbfcbf296 Assembly-CSharp.dll:Leap.Unity.Interaction.InteractionManager
 069abb959404dae856634f5c610ba860 Assembly-CSharp.dll:Leap.Unity.Interaction.AnchorGroup
+6ae68685ebb0e33e57af147341b029fb Assembly-CSharp.dll:.shadertest
 0c23561465998051ea184339e66fad4e Assembly-CSharp.dll:Leap.Unity.GraphicalRenderer.LeapPanelOutlineGraphic
 745f2b66636c2d9896edc2199338452f Assembly-CSharp.dll:Leap.Unity.Attachments.AttachmentPointBehaviour
 fce2c1e2d460b67ae8be7a8ceab148f1 Assembly-CSharp.dll:Leap.Unity.GraphicalRenderer.LeapPanelGraphic
@@ -291,7 +291,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Leap.Unity.Interaction.DefaultXRNodeTrackingProvider
 a3c59ab0a4370ee52046603a838699bb Assembly-CSharp.dll:Leap.Unity.Interaction.InteractionButton
 39e87458d5150cecb9dbf5fce2560fc2 Assembly-CSharp.dll:Leap.Unity.TemporalWarpingStatus
-40e945c4540611027f3574b8079e9954 Assembly-CSharp.dll:.DefaultTrackableEventHandler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
 ec6ff1689ffbbeec38e9eb68905ae482 Assembly-CSharp.dll:Leap.Unity.GraphicalRenderer.LeapSpriteGraphic
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Leap.Unity.Animation.Internal.TweenRunner
 c25d47e5bbff487f36bd705c4b8b7e3f Assembly-CSharp.dll:.vButtonSelect
@@ -336,6 +336,7 @@ be68a326f522e456f6b5554c6b068fd4 Assembly-CSharp.dll:Leap.Unity.Comment
 8f843b90d2630e406fbec07e3595d6dd Assembly-CSharp.dll:Leap.Unity.Attachments.AttachmentHand
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OnContactLoadScene
 5a1137e9ab8d566f902264eb08e8ce5f Assembly-CSharp.dll:.RaySelector
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LEAP_MoveControl
 4fdae900abf29ef9860818aa945aab1c Assembly-CSharp.dll:Leap.Unity.DetectorLogicGate
 2f386c6b69d007ba0bc6d850a5bcd0de Assembly-CSharp.dll:Leap.Unity.Examples.TransformTool
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -412,3 +413,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 6fae563d5c2cfb274a1af8b0e5fa44a4 Assembly-CSharp.dll:Leap.Unity.PolyFinger
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GPSMarkerlessTrack

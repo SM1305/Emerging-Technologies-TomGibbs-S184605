@@ -6,7 +6,7 @@ public class materialtest : MonoBehaviour
 {
     public Renderer rend;
     Color normalColour;
-    Color highlight = new Color(0, 1, 0);
+    Color highlight = new Color(1, 1, 0);
     
     void Start()
     {
