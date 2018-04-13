@@ -42,10 +42,12 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
     {
         AimLine();
 
-        SearchObjects();
+        //SearchObjects();
 
         SelectedObjects();
     }
+
+
 
     public void OnButtonPressed(VirtualButtonBehaviour vButton)
     {
@@ -63,6 +65,8 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
                 if (hitInfo.collider)
                     rayLine.SetPosition(1, hitInfo.point);
             }
+
+            SearchObjects();
         }
         if (vButton.gameObject.name == "VirtualButton_spawn")
         {
@@ -70,6 +74,8 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
             //_deployStageOnce.OnInteractiveHitTest(result);
         }
     }
+
+
 
     public void OnButtonReleased(VirtualButtonBehaviour vButton)
     {
@@ -87,6 +93,8 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
         }
     }
 
+
+
     void AimLine()
     {
         rayLine.SetPosition(0, transform.position);
@@ -96,10 +104,10 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
         rayLine.SetPosition(1, transform.forward * 1000);
     }
 
+
+
     void SearchObjects()
     {
-        AimLine();
-
         if (hitInfo.transform.name == "R34")
         {
             Debug.Log("R34");
@@ -131,6 +139,8 @@ public class RaySelector : MonoBehaviour, IVirtualButtonEventHandler
             objects = SelectableObjects.Wheel;
         }
     }
+
+
 
     void SelectedObjects()
     {

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - distanceText
+  - Capsule
+  - Sphere
+  - Cube
   layers:
   - Default
   - TransparentFX
