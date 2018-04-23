@@ -1,9 +1,12 @@
 Android
+PlayerPath?
+C:/Users/tomgi/Desktop/ETHANgp.apk
 SceneListBegin?
 Assets/_Tom_S184605/Scenes/AtlanticCrossing.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ARwalk_doorL
 787a8e7a5101867e9cc7b11645408842 Assembly-CSharp.dll:Leap.Unity.Interaction.InteractionBehaviour
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LEAP_Print
 184a9b563e69bf1b7fda26aaeae4219b Assembly-CSharp.dll:.PropellerRotate
 34be1ad210a6a75d05575da3360e3aa8 Assembly-CSharp.dll:Leap.Unity.ConnectionMonitor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -295,6 +298,7 @@ a3c59ab0a4370ee52046603a838699bb Assembly-CSharp.dll:Leap.Unity.Interaction.Inte
 ec6ff1689ffbbeec38e9eb68905ae482 Assembly-CSharp.dll:Leap.Unity.GraphicalRenderer.LeapSpriteGraphic
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Leap.Unity.Animation.Internal.TweenRunner
 c25d47e5bbff487f36bd705c4b8b7e3f Assembly-CSharp.dll:.vButtonSelect
+fce182d59edd7ba2563ac4be4238775e Assembly-CSharp.dll:.FingerRaySelector
 3e5c920332a24041d30c0cf9668ea530 Assembly-CSharp.dll:.vButtonForward
 7dc7a7b22a294cb032075f0082477a9a Assembly-CSharp.dll:Leap.Unity.Interaction.ContactBoneParent
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -377,6 +381,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 6daf822fbfefbf0e5841375a5f907196 Assembly-CSharp.dll:Leap.Unity.KeyEnableBehaviors
 c401d950aa023aec5daa2becef6db068 Assembly-CSharp.dll:Leap.Unity.Interaction.AnchorableBehaviour
 d8b86f4fb9fa4c153334062c4f5a4a1d Assembly-CSharp.dll:Leap.Unity.StationaryTestLeapProvider
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GPSMarkerlessTrack
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 2e0fd93f459db951da0e2e94e2e33fb7 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -413,4 +418,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 6fae563d5c2cfb274a1af8b0e5fa44a4 Assembly-CSharp.dll:Leap.Unity.PolyFinger
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GPSMarkerlessTrack
