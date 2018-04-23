@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 90
+  controlID: 134
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 91
+  controlID: 44
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 92
+  controlID: 45
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0af80100
-    m_LastClickedID: 129034
-    m_ExpandedIDs: ee05edffc009edff98ddf2fff0f6f2ffbc04f3ff740ef3ff3a17f3ff4c21f3ff742ef3ffea46f3ffd849f3ff764cf3ffae5ffcffb05ffcffb25ffcffb45ffcffb65ffcff5460fcff5660fcff5860fcff5a60fcff5c60fcff6460fcffec6dfcff8accffff24cdffff28cdffff30cdffff9efbffff00000000a83b0000c03b0000ec8b0000108e0000ce8e00009c8d010086f5010076f701009af90100
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -423,14 +423,14 @@ MonoBehaviour:
     height: 524
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 18907.89237281565
+  lastFramingTime: 14.66569687353257
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.43975627, y: 11.458927, z: -22.29626}
+    m_Target: {x: -231.44698, y: 50.41224, z: 281.3722}
     speed: 2
-    m_Value: {x: -0.43975627, y: 11.458927, z: -22.29626}
+    m_Value: {x: -231.44698, y: 50.41224, z: 281.3722}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -454,13 +454,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0035583016, y: -0.99613595, z: 0.046114407, w: 0.07465915}
+    m_Target: {x: 0.06043977, y: 0.28965896, z: 0.018437631, w: -0.95504177}
     speed: 2
-    m_Value: {x: 0.0035583018, y: -0.996136, z: 0.04611441, w: 0.074659154}
+    m_Value: {x: 0.06043977, y: 0.28965896, z: 0.018437631, w: -0.95504177}
   m_Size:
-    m_Target: 37.05525
+    m_Target: 430.0926
     speed: 2
-    m_Value: 37.05525
+    m_Value: 430.0926
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -583,33 +583,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Tom_S184605/scripts
+    - Assets/leapmotion_/LeapMotion/Core/Scripts/DetectionUtilities
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Tom_S184605/scripts
+  - Assets/leapmotion_/LeapMotion/Core/Scripts/DetectionUtilities
   m_LastFoldersGridSize: -1
   m_LastProjectPath: W:\_GitHub\Emerging-Technologies-TomGibbs-S184605\AR_Vuforia_EmergingTech\R34AR_prototype_V2
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f8330000
-    m_LastClickedID: 13304
-    m_ExpandedIDs: 00000000942c0000c62c0000e02c0000382f00002030000036300000e83000004c310000b63100005432000058330000a4330000cc330000ce330000f83300006a3b00006c3b0000724f0000844f0000cc4f0000d64f0000e64f00005e5000006450000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 106}
+    m_SelectedIDs: cc310000
+    m_LastClickedID: 12748
+    m_ExpandedIDs: 000000009e2c0000d02c00005c2e0000442f00002c30000042300000f430000058310000ac310000c2310000f631000064330000b0330000d8330000da33000004340000783b00007a3b00007c3b00007e3b0000803b0000823b0000843b0000863b0000883b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: CylinderTarget
-      m_OriginalName: CylinderTarget
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12358
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -623,7 +623,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000942c0000c62c0000e02c0000502e0000382f00002030000036300000223100004c310000a0310000b63100003232000054320000aa320000b8320000cc32000058330000a4330000ce3300006a3b00006c3b0000
+    m_ExpandedIDs: 000000009e2c0000d02c00005c2e0000442f00002c30000042300000f430000058310000ac310000c2310000f631000064330000b0330000d8330000da33000004340000783b00007a3b00007c3b00007e3b0000803b0000823b0000843b0000863b0000883b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: e0210000d02b0000ae240000d0210000ee210000c01c0000f22100000405000036050000522200005a22000026220000fe210000f0230000ae1d0000f6210000f421000020050000bc240000ca230000d02300000c250000d6230000b069ffff025fffffb44dffff800efffface5ffff00000000ecf1ffffbc430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
