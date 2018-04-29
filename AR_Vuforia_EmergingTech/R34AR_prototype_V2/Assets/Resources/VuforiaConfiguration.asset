@@ -12,23 +12,23 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: Ad/XJwf/////AAAAmeFxxrYszEwNmlzcNs9N3rgJpXfqcw93cNAejoSw/uj9mBtogG2FFKEQMtUzjEnEFHCu27o59KoecTCrtfP1KJAWC//RhJ/8tSdG39cpwWy6S+z0reNa9tiosn8bKtcY60G+FJpzZsQsKUqbXoa6gb49AmFCEFr1T9a4wQonMFhJ0rXmesYxekSj8c7Al8YXctcwb8kPj02gJzIEaaG+IcKiKdjSsK4MaTPWeBNFN+PVKkcZDK0LGVnD8nm3Wyp6LgyCZiorDAz7xDqq0tADuDA6s5OGYBEXfVlGP+uyvyVyZC2YaqC/7gXO9LdFWJO5VyRByqlZg6dhoXrpCegewkR72M1XkcQX/WZaJrMO8GD9
     ufoLicenseKey: QVFOTVcvNy8vLy8vQUFBQUtMTHdXRzNUU0VsM205MUtZbE56eWpoai9aTU8rKzFjOEgxQlN1VGZiTks2QlorUzRpMjhhaE1pSkd4VkhXWkpIM0pOUEpUaURFdUFsVWVPY1Z5dWZsRzQ1S3ZpMWVsVFhQNy9PRVlud1ZhVnlWTnIrUE03TW13UzBIMWN4RDZKRm41eVZTYWNVMk9DSkpGN3VWTXNXQ042V3dHY3Y2YW5YTG42WDBqeXFxZUVXOU1LcWJMWUFNdmREY2pRczYxRDhxRzZQbjNtdlZUZWhzeEV3TG9mTCt3TGM0Nnp1YnRHUGoxSE9DWkRXaVl0Zm9rOGFkdmRrcUc4NmEwUnFYdk5MaW1hT3gyZ2pOM1poZlFGTmcrYXB0cldYRkd2RnVVSWdITXpaMVJCRGRTbEJQRHduY1JlNExnV3VDQ0lsWGFkTzRQcXlLVEdIbEgxcWdhbStnbUlVYndqYkhiZHpOYXlzN1c0a3p0MnFYUWQ=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    cameraDirection: 0
+    cameraDirection: 1
     mirrorVideoBackground: 0
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
-    eyewearType: 0
+    eyewearType: 2
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -46,18 +46,18 @@ MonoBehaviour:
     dataSetsToLoad: []
     dataSetsToActivate: []
   videoBackground:
-    clippingMode: 0
+    clippingMode: 1
     numDivisions: 2
     videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
       type: 0}
-    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    matteShader: {fileID: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 1
     autoStartTracker: 1
-    trackingMode: 1
-    posePrediction: 0
-    modelCorrectionMode: 0
+    trackingMode: 0
+    posePrediction: 1
+    modelCorrectionMode: 1
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   smartTerrain:
