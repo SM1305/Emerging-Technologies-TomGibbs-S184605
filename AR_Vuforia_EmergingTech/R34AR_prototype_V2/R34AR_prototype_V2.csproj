@@ -259,7 +259,6 @@
     <Compile Include="Assets\_Tom_S184605\scripts\materialtest.cs" />
     <Compile Include="Assets\_Tom_S184605\scripts\OceanMarkers.cs" />
     <Compile Include="Assets\_Tom_S184605\scripts\OnContactLoadScene.cs" />
-    <Compile Include="Assets\_Tom_S184605\scripts\PropellerRotate.cs" />
     <Compile Include="Assets\_Tom_S184605\scripts\RaySelector.cs" />
     <Compile Include="Assets\_Tom_S184605\scripts\SelectedObjectEffect.cs" />
     <Compile Include="Assets\_Tom_S184605\scripts\shadertest.cs" />

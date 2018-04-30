@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/tomgi/Desktop/CURRENTtezZtt.apk
+C:/Users/tomgi/Desktop/AtlanticCrossing.apk
 SceneListBegin?
 Assets/_Tom_S184605/Scenes/AtlanticCrossing.unity
 SceneListEnd?
@@ -9,7 +9,6 @@ SceneListEnd?
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
 c9737d14ba7a2fc69347a243e2d68150 Assembly-CSharp.dll:GoogleVR.GVRDemo.HeadsetDemoManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LEAP_Print
-184a9b563e69bf1b7fda26aaeae4219b Assembly-CSharp.dll:.PropellerRotate
 34be1ad210a6a75d05575da3360e3aa8 Assembly-CSharp.dll:Leap.Unity.ConnectionMonitor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack

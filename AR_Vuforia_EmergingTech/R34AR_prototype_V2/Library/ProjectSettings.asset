@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: tomgibbs
-  productName: R34currentTest
+  productName: R34AtlanticCrossing
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.342474, g: 0.78676474, b: 0.23140138, a: 1}
@@ -39,7 +39,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: fb22b98929f50754ab255ba14de4fa55,
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 226cfc1dcfd9df449a7c4e33729e0922,
     type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -159,7 +159,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.tomgibbs.r34currentTestcb
+    Android: com.tomgibbs.r34AtlanticCrossing
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
@@ -243,7 +243,7 @@ PlayerSettings:
   clonedFromGUID: 00000000000000000000000000000000
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 2800000, guid: 5f131b079790d4251836bc73b812b53d, type: 3}
+  androidSplashScreen: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidTVCompatibility: 0
@@ -254,39 +254,39 @@ PlayerSettings:
   m_AndroidBanners:
   - width: 320
     height: 180
-    banner: {fileID: 0}
+    banner: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: Android
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: fb22b98929f50754ab255ba14de4fa55, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
       m_Width: 192
       m_Height: 192
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: fb22b98929f50754ab255ba14de4fa55, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
       m_Width: 144
       m_Height: 144
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: fb22b98929f50754ab255ba14de4fa55, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
       m_Width: 96
       m_Height: 96
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: fb22b98929f50754ab255ba14de4fa55, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
       m_Width: 72
       m_Height: 72
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: fb22b98929f50754ab255ba14de4fa55, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
       m_Width: 48
       m_Height: 48
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: fb22b98929f50754ab255ba14de4fa55, type: 3}
+      m_Icon: {fileID: 2800000, guid: 5b1a64ea234fb2343b8d0686c51280de, type: 3}
       m_Width: 36
       m_Height: 36
       m_Kind: 0
@@ -575,8 +575,10 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psp2ScriptOptimizationLevel: 0
   psmSplashimage: {fileID: 0}
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
-  splashScreenBackgroundSourcePortrait: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
+    type: 3}
+  splashScreenBackgroundSourcePortrait: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
+    type: 3}
   spritePackerPolicy: 
   webGLMemorySize: 256
   webGLExceptionSupport: 1

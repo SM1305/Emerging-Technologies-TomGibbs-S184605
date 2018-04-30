@@ -21,17 +21,15 @@ public class GPSMarkerlessTrack : MonoBehaviour
 
     IEnumerator GetCoordinates()
     {
-        //while true so this function keeps running once started.
         while (true)
         {
-            // check if user has location service enabled
             if (!Input.location.isEnabledByUser)
                 yield break;
 
-            // Start service before querying location
-            Input.location.Start(10f, 1f); // (1f, .1f); // watch multiplication of distance below!!!
 
-            // Wait until service initializes
+            Input.location.Start(0.5f, .1f); // (1f, .1f); // watch multiplication of distance below!!! //distance update, amount pass
+
+
             int maxWait = 20;
             while (Input.location.status == LocationServiceStatus.Initializing && maxWait > 0)
             {
@@ -39,14 +37,12 @@ public class GPSMarkerlessTrack : MonoBehaviour
                 maxWait--;
             }
 
-            // Service didn't initialize in 20 seconds
             if (maxWait < 1)
             {
                 print("Timed out");
                 yield break;
             }
 
-            // Connection has failed
             if (Input.location.status == LocationServiceStatus.Failed)
             {
                 print("Unable to determine device location");
@@ -54,10 +50,9 @@ public class GPSMarkerlessTrack : MonoBehaviour
             }
             else
             {
-                // Access granted and location value could be retrieved
                 print("Location: " + Input.location.lastData.latitude + " " + Input.location.lastData.longitude + " " + Input.location.lastData.altitude + " " + Input.location.lastData.horizontalAccuracy + " " + Input.location.lastData.timestamp);
 
-                //if original value has not yet been set save coordinates of player on app start
+                //set original values on launch
                 if (setOriginalValues)
                 {
                     originalLatitude = Input.location.lastData.latitude;
@@ -69,7 +64,7 @@ public class GPSMarkerlessTrack : MonoBehaviour
                 currentLatitude = Input.location.lastData.latitude;
                 currentLongitude = Input.location.lastData.longitude;
 
-                //calculate the distance between where the player was when the app started and where they are now.
+                //distance between playerStartPos - playerCurrPos
                 Calc(originalLatitude, originalLongitude, currentLatitude, currentLongitude);
 
             }
@@ -77,7 +72,7 @@ public class GPSMarkerlessTrack : MonoBehaviour
         }
     }
 
-    //calculates distance between two sets of coordinates, taking into account the curvature of the earth.
+    //distance between two coordinate sets //accounts for curvature of the earth
     public void Calc(float lat1, float lon1, float lat2, float lon2)
     {
 
@@ -90,23 +85,19 @@ public class GPSMarkerlessTrack : MonoBehaviour
         var c = 2 * Mathf.Atan2(Mathf.Sqrt(a), Mathf.Sqrt(1 - a));
         distance = R * c;
         distance = distance * 1000f; // meters
-                                     //set the distance text on the canvas
         distanceTextObject.GetComponent<Text>().text = "Distance: " + distance;
         //convert distance from double to float
         float distanceFloat = (float)distance;
-        //set the target position of the ufo, this is where we lerp to in the update function
-        targetPosition = originalPosition - new Vector3(0, 0, distanceFloat * 250);
-        //distance was multiplied by 12 so I didn't have to walk that far to get the UFO to show up closer
+        //set ship pos
+        targetPosition = originalPosition - new Vector3(0, 0, distanceFloat * 10);
+        //multiply distance for stronger effect
 
     }
 
     void Start()
     {
-        //get distance text reference
         distanceTextObject = GameObject.FindGameObjectWithTag("distanceText");
-        //start GetCoordinate() function 
         StartCoroutine("GetCoordinates");
-        //initialize target and original position
         targetPosition = transform.position;
         originalPosition = transform.position;
     }
